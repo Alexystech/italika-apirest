@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: italika-apirest
+  profiles:
+    active: dev
+server:
+  servlet:
+    context-path: /italika

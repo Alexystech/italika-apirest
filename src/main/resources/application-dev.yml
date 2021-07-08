@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: slasher
+    password: 1408
+    driver-class: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/italikadb
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    show-sql: true
+server:
+  port: 8085
